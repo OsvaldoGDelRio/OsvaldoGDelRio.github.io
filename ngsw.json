@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "timestamp": 1638650839024,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.093d4a4d0f4156e76389.js",
+        "/manifest.webmanifest",
+        "/polyfills.505c2b8a5cedded29ea6.js",
+        "/runtime.869fbf18ad1b44314569.js",
+        "/scripts.505ed5c9103be7dc0e8b.js",
+        "/styles.6b88932b80b18b744576.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/cs-logocompleto.png",
+        "/bootstrap-icons.2b56e79ae5013246de29.woff2",
+        "/bootstrap-icons.38c4d2499557ae0379fd.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/cs-logocompleto.png": "a7fd7268ae43fb1f914942c6b14ce193f72e9885",
+    "/bootstrap-icons.2b56e79ae5013246de29.woff2": "00150349e6ebdaf2628af9ea4e56d6b02dbda393",
+    "/bootstrap-icons.38c4d2499557ae0379fd.woff": "d644d61b4bc7925875ad953cc381b4a722b334d2",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "72af7d1d7d106dc8c755e2730c2a89526309c89a",
+    "/main.093d4a4d0f4156e76389.js": "e59f0c19a70ed2ab6acd69cab59e5a2adf84071c",
+    "/manifest.webmanifest": "deb005eef0d31f7416547e5877d042ad42467742",
+    "/polyfills.505c2b8a5cedded29ea6.js": "1b9b39ab786314fd61939c658cdb268be9445bde",
+    "/runtime.869fbf18ad1b44314569.js": "959cdee20ed966fdfdb639219a3ddf5c0315bbad",
+    "/scripts.505ed5c9103be7dc0e8b.js": "bad36111209002dd733a94770cc6fd70ccbfba8d",
+    "/styles.6b88932b80b18b744576.css": "75b45f8fb2c76fc27372a5cfff720158116587ff"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
